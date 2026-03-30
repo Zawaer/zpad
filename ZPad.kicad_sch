@@ -1850,16 +1850,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 147.32) (xy 138.43 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8148c4bb-58eb-4664-896e-262dd6c5a59d")
-	)
-	(wire
-		(pts
 			(xy 177.8 87.63) (xy 193.04 87.63)
 		)
 		(stroke
@@ -1867,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "911fc29a-321c-4f08-a1f6-295259da9050")
+	)
+	(wire
+		(pts
+			(xy 137.16 149.86) (xy 138.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e80dd70-54a1-490f-9e68-a7754478b99e")
 	)
 	(wire
 		(pts
@@ -1950,6 +1950,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 147.32) (xy 138.43 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca572d99-5f32-4b9e-8a3b-52fa99a7c903")
+	)
+	(wire
+		(pts
 			(xy 156.21 139.7) (xy 156.21 137.16)
 		)
 		(stroke
@@ -1997,16 +2007,6 @@
 			(type default)
 		)
 		(uuid "ebcd4f20-ab89-44e3-a439-47135fbd6162")
-	)
-	(wire
-		(pts
-			(xy 137.16 149.86) (xy 138.43 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1ab4ca-b8e6-4904-8fda-1cb19fbf3b28")
 	)
 	(wire
 		(pts
@@ -2098,7 +2098,7 @@
 		)
 		(uuid "450d2a4e-1a55-487a-bb52-63647aa28d48")
 	)
-	(label "COL3"
+	(label "COL0"
 		(at 82.55 142.24 0)
 		(effects
 			(font
@@ -2109,7 +2109,7 @@
 		(uuid "564e10d3-90d1-47c6-823c-610ef7093a51")
 	)
 	(label "SDA"
-		(at 138.43 149.86 0)
+		(at 138.43 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2137,6 +2137,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ab11a88-9d4c-46e1-adf2-9c242a4b6268")
+	)
+	(label "ROW0"
+		(at 138.43 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84711c0c-d5b3-4eac-a34d-2605c198d789")
 	)
 	(label "SDA"
 		(at 101.6 110.49 0)
@@ -2168,6 +2178,16 @@
 		)
 		(uuid "b139afb8-8737-4600-9aaa-2d1a2ee35769")
 	)
+	(label "ROW1"
+		(at 138.43 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1c79868-b4dd-4ef8-941c-a87b023ac475")
+	)
 	(label "SCL"
 		(at 96.52 110.49 0)
 		(effects
@@ -2178,17 +2198,7 @@
 		)
 		(uuid "cb2cecc7-1e5f-43bd-908b-288ce79ef853")
 	)
-	(label "ROW1"
-		(at 138.43 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcea1dee-964f-4c6f-b57f-cc27186f1305")
-	)
-	(label "COL1"
+	(label "COL2"
 		(at 82.55 137.16 0)
 		(effects
 			(font
@@ -2199,7 +2209,7 @@
 		(uuid "dd1fa0ca-1516-4767-b3a0-1f0c1856a5aa")
 	)
 	(label "SCL"
-		(at 138.43 147.32 0)
+		(at 138.43 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2228,7 @@
 		)
 		(uuid "defab3af-640d-4f74-b54f-69bea7caf6ec")
 	)
-	(label "COL2"
+	(label "COL1"
 		(at 82.55 139.7 0)
 		(effects
 			(font
@@ -2248,7 +2258,7 @@
 		)
 		(uuid "fa7dc28c-6e3b-419e-a99e-cf2d82d42c9b")
 	)
-	(label "COL0"
+	(label "COL3"
 		(at 82.55 134.62 0)
 		(effects
 			(font
@@ -2257,16 +2267,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbeeff2a-8dbd-402b-8b7a-8df372666aa2")
-	)
-	(label "ROW0"
-		(at 138.43 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe518bca-4910-4d9e-a76c-029e25faafeb")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
