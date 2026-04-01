@@ -6,11 +6,11 @@ A 8-key macropad powered by a RP2040, featuring a rotary encoder and a 0.91" OLE
 
 ## Schematic
 
-<img width="1149" height="869" alt="Screenshot 2026-03-30 at 21 38 45" src="https://github.com/user-attachments/assets/b8c76718-4660-47f3-9f2b-920fd1ee9062" />
+<img width="1704" height="1284" alt="Screenshot 2026-04-01 at 18 20 28" src="https://github.com/user-attachments/assets/75c117b6-5fc4-4d03-a921-66bd856d8c49" />
 
 ## PCB
 
-<img width="1095" height="886" alt="Screenshot 2026-03-30 at 21 38 59" src="https://github.com/user-attachments/assets/c3504ee3-dc54-45c6-a5b9-8d90e6a208c4" />
+<img width="1450" height="1185" alt="Screenshot 2026-04-01 at 18 17 10" src="https://github.com/user-attachments/assets/ae4497ab-ae86-4655-b59e-37ec2d6bfe6a" />
 
 <img width="668" height="550" alt="Screenshot 2026-03-30 at 20 29 17" src="https://github.com/user-attachments/assets/f09f9b61-d5e9-480a-9715-dfc68926e7c0" />
 
