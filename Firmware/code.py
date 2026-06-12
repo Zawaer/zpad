@@ -100,8 +100,8 @@ class AnimationExtension(Extension):
         self.hud_label = label.Label(
             terminalio.FONT,
             text="",
-            color=0x000000,  # hidden by default
-            x=40,
+            color=0x000000,
+            x=-200,  # start off screen
             y=16,
         )
         self.hud_visible_until = 0
@@ -163,11 +163,14 @@ class AnimationExtension(Extension):
 
     def _show_hud(self, text):
         self.hud_label.text    = text
+        self.hud_label.x       = 40
+        self.hud_label.y       = 16
         self.hud_label.color   = 0x000000 if self.inverted else 0xFFFFFF
-        self.hud_visible_until = supervisor.ticks_ms() + 1000  # 1000ms = 1 second
+        self.hud_visible_until = supervisor.ticks_ms() + 1000
         self.hud_visible       = True
 
     def _hide_hud(self):
+        self.hud_label.x     = -200  # move off screen
         self.hud_label.color = 0xFFFFFF if self.inverted else 0x000000
         self.hud_visible     = False
 
