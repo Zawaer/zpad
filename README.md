@@ -2,6 +2,8 @@
 
 A 8-key macropad powered by a RP2040, featuring a rotary encoder and a 0.91" OLED display.
 
+Built through [Hack Club](https://hackclub.com)'s Hackpad program. The OLED animation engine in the firmware (bouncing balls, starfield, digital rain, sine waves) and the case are my own.
+
 <img width="841" height="642" alt="Screenshot 2026-03-30 at 21 38 20" src="https://github.com/user-attachments/assets/3f1260df-b05e-40ac-b1da-b0c43c6b1e02" />
 
 ## Schematic
